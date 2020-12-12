@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="gameStyle.css" rel="stylesheet" type="text/css"/>
+
+    <title>BlackjackGame</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>Welcome To The Game Of Blackjack!</h1>
+
+    <div id="gameTable">
+        <div class="drawDeck-cards">
+            <h2 class="deal-text">Deck</h2>
+            <img id="drawDeck" src="cards-png-100x153-numbered/red_back.png" height="153"
+                 width="100"/>
+        </div>
+        <div id="playArea">
+            <button id="discardAllButton">Discard All</button>
+        </div>
+        <p id="message"></p>
+        <span id="resultsMessage"></span>
+        <span id="playerOneText">Player One's Hand</span>
+        <div id="playersHand"></div>
+        <span id="playOneScore"></span>
+
+        <span id="dealersText">Dealer's Hand</span>
+        <div id="dealersHand"></div>
+        <span id="dealerScore"></span>
+
+        <div>
+            <input class="btn btn-primary" id="backToHome" type="button" onclick="window.location.href='index.html'"
+                   value="Back To Home"/>
+        </div>
+
+        <div class="discarded">
+            <div id="discardPile"></div>
+        </div>
+        <span id="discardPileText">Discard Pile</span>
+
+
+    </div>
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://singularityhub.com/wp-content/uploads/2019/07/Casino-poker-chips-on-green-felt-background-artificial-intelligence-shutterstock-658269847.jpg");
+
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+.nav-link {
+    color: midnightblue;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: -moz-left;
+    font-family: "Times New Roman";
+    font-size: 80px;
+    color: darkblue;
+}
+
+nav {
+    font-family: "Times New Roman";
+    width: 50%;
+
+}
+
+#blackjack-img {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+#lucky-img{
+    position: absolute;
+    top: 72%;
+    left: 60%;
+    width: 300px;
+    height: auto;
+
+}
+#playGame{
+    position: absolute;
+    top: 63%;
+    left: 65%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: deepskyblue;
+}
+
+#history {
+    width: 55%;
+}
+
+.history-list {
+    list-style: disc;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+
+}
+
+.term-list {
+    list-style: disc;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    font-family: "Arial Narrow";
+
+}
+
+.stats-list {
+    list-style: square;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+}
+
+.terms {
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #4d1992;
+}
+
+.stats {
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #4d1992;
+
+}
+
+.rules{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkred;
+}
+
+.terms-p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+
+}
+
+.tab-content {
+    width: 115%;
+}
+ol{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+
+}
+

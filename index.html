@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+
+    <title>BlackjackHouse</title>
+
+</head>
+<body>
+<form>
+    <div class="container">
+        <h1>The Blackjack House</h1>
+        <br>
+        <nav>
+            <ul id="tabs" class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active " href="#history">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#terminology">Terms & Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#learnToPlay">Learn To Play</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <div class="tab-content">
+            <div id="history" class="tab-pane active ">
+                <ul class="history-list">
+                    <li>
+                        While there is no specific timeline when Blackjack started, researchers have reasons to believe
+                        that it began in French casinos around the 18th century. Blackjack has few other names,
+                        but the French called it Vingt-et-Un, translated it means twenty-one. Blackjack was also
+                        commonly
+                        called twenty-one by the English.
+                    </li>
+                    <br>
+                    <li>
+
+                        Others believe the game first originated during the Roman era,
+                        for which wooden blocks were utilised to denote the numbers involved,
+                        however this is not confirmed.
+                    </li>
+                    <br>
+
+                    <li>
+
+                        It's to be said the way Blackjack got its name, is casinos offered bonus payouts
+                        to stimulate players' interest. The bonus was a ten-to-one payout if player's were
+                        dealt the Ace of Spades and a black jack. This hand was called "Blackjack".
+                        The name stuck with it even after they got rid of the bonuses.
+                    </li>
+                    <img src="https://easymoneyblackjack.com/wp-content/uploads/2013/11/blackjack1934-300w.jpg"
+                         id="blackjack-img"/>
+                </ul>
+            </div>
+            <div id="terminology" class="tab-pane ">
+                <p class="terms">Terminology</p>
+                <p class="terms-p">Here is a list of some very common terms that are used.
+                    <br>It is important to know these terms when playing Blackjack.
+                </p>
+                <ul class="term-list">
+                    <li><strong>Blackjack</strong> - a two card hand consisting of an ace and any 10 value card.</li>
+                    <li><strong>Box</strong> - the area in front of each player where bets are placed.</li>
+                    <li><strong>Bust</strong> - to go over a hand total of 21.</li>
+                    <li><strong>Hit</strong> - to take another card.</li>
+                    <li><strong>Hard Hand</strong> - a hand that does not contain an ace, meaning it can only have one
+                        total value.
+                    </li>
+                    <li><strong>Hole Card</strong> - the dealer's face down card.</li>
+                    <li><strong>Pair</strong> - a two card hand containing equal value cards. Pairs may be split.</li>
+                    <li><strong>Soft Hand</strong> - a hand containing an ace valued as a 1, meaning another card may be
+                        taken.
+                    </li>
+                    <li><strong>Stand</strong> - to not take any further cards - also known as "sitting".</li>
+                </ul>
+                <p class="stats">Statistics</p>
+                <ul class="stats-list">
+                    <li>Hands that the player can expect to win is 48% (excluding ties).</li>
+                    <li>A player gets a blackjack 1 out of 21 hands. -Ironic-</li>
+                    <li>The dealer will bust about 28% of the time.</li>
+                    <li>To lose 3 consecutive hands is about 14% chance (excluding ties).</li>
+                    <li>A players two-card hand to be a hard 12-17 about 43% of the time.</li>
+                </ul>
+            </div>
+            <div id="learnToPlay" class="tab-pane">
+                <p class="rules">Rules and How To Play</p>
+                <ol>
+                    <li>Each player, including the dealer, starts with two cards.</li>
+                    <li>The Dealer has one hidden card that will be shown at the end of the round.</li>
+                    <li>The goal is to beat the dealer without exceeding 21.</li>
+                    <li>If player exceeds 21, they bust and the dealer automatically wins.</li>
+                    <li>Each card is worth its normal value except Jacks, Queens <br> and Kings are worth 10, and Aces
+                        can be used as a 1 or 11.
+                    </li>
+                    <li>If the dealer busts and the player does not, the player wins.</li>
+                    <li>All similar score less than 21 result in a draw.</li>
+                    <li>At each turn the player can hit (ask for a card), <br>
+                        stand (remain with it's current score) or, <br>
+                        double down (the bet is doubled but only one more card is drawn.)
+                    </li>
+                    <li>If player has two identical cards, they can split, which means <br>
+                        they can make two separate hands that will be played independently.
+                    </li>
+                </ol>
+                <img src="https://memegenerator.net/img/instances/64978611/do-i-feel-lucky-well-do-ya-punk.jpg" id="lucky-img"/>
+                <input id="playGame" type="button" onclick="window.location.href='blackjack.html'" value="Play Blackjack"/>
+            </div>
+        </div>
+    </div>
+</form>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
